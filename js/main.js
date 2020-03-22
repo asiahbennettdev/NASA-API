@@ -1,3 +1,6 @@
+
+
+
 const grabImage = (year, month, day) => {
 fetch(`https://api.nasa.gov/planetary/apod?api_key=bXoVlRGJe8N7w4D4fweO0Fzkg3D49BjvYjxuJphw&date=${year}-${month}-${day}`)
     .then(res => res.json()) // parse response as JSON (can be res.text() for plain response)
@@ -16,9 +19,8 @@ fetch(`https://api.nasa.gov/planetary/apod?api_key=bXoVlRGJe8N7w4D4fweO0Fzkg3D49
         document.querySelector('iframe').width = "100%"
         document.querySelector('img').src = ""
       }
-      document.querySelector('h1').textContent = response.title
-      document.querySelector('p').textContent = response.explanation
-
+      document.querySelector('h4').textContent = response.title
+      document.querySelector('span').textContent = response.explanation
     })
     .catch(err => {
         console.log(`error ${err}`)
