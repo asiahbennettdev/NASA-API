@@ -1,6 +1,6 @@
 # NASA-API
-# To-Do-List
-Project scope: The objective was to make a simple To Do List that add items to a list, crosses out completed task, clears completed tasks, keeps count of items left to complete, and clear whole list
+
+Project scope: The objective was to manipulate NASA's API to display picture of the day based on user input choice.
 
 ![ screenshot of application](https://github.com/asiahbennettdev/NASA-API/blob/answer/images/nasa.png)
 
