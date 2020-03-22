@@ -6,15 +6,15 @@ Project scope: The objective was to make a simple To Do List that add items to a
 
 
 # Link
-https://jolly-easley-3be935.netlify.com
+https://wonderful-brahmagupta-811d22.netlify.com/
 
 # How It's Made: 
-Tech Used: HTML, CSS, Javascript 
+Tech Used: HTML, CSS, Javascript, API 
 
 #Optimizations 
-Optimizations would include the user ability to remove already placed items, cross out completed items on a list, and clear all
+Optimizations would include the user ability to input date from the year 1996-current, choosing month and day, after user submits their input, NASA's picture of the day will show up for that particular date. 
 
 # Lesson Learned: 
-* how to work on a team with other engineers 
-* how to use functions to manipulate arrays 
-* how to utilize different methods to make functions work correctly 
+* how to work with APIs 
+* how to do fetch requests
+* how to manipulate NASA's data
